@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+ /* Navigation styling */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .navbar ul li {
+    margin-right: 20px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+
+  .navbar ul li a:hover {
+    color: #007bff;
+  }
+  .firstBox{
+    display: flex;
+    flex-direction: row;
+  }
+  .sideA{
+    height: 300px;
+  }
+  .sideB{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #000;
+    color: #FFF;
+    height: 400px;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .web3Img{
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .web3Contents{
+    display: flex;
+    flex-direction: row;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+
+  }
+  .web3Contents h3{
+    font-size: 30px;
+    
+  }
+  .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+  }
+  button{
+    width: 100px;
+    padding: 5px;
+
+  }
+  .secondBox{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .article{
+    display: flex;
+    flex-direction: row;
+  }
+  .artImg{
+    margin-right: 20px;
+    height: 50%;
+  }
+  .item p{
+    margin-bottom: 50px;
+  }
